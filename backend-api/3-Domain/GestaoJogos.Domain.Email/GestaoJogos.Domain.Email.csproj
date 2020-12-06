@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\5-CrossCutting\GestaoJogos.CrossCutting.Notification\GestaoJogos.CrossCutting.Notification.csproj" />
+    <ProjectReference Include="..\..\6-SharedKernel\GestaoJogos.SharedKernel.Application\GestaoJogos.SharedKernel.Application.csproj" />
+    <ProjectReference Include="..\..\6-SharedKernel\GestaoJogos.SharedKernel.Infrastructure\GestaoJogos.SharedKernel.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

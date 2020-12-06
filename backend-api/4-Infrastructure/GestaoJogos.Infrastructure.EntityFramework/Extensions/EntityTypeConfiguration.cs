@@ -1,0 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+namespace GestaoJogos.Infrastructure.EntityFramework.Extensions
+{
+    public abstract class EntityTypeConfiguration<TEntity> where TEntity : class
+    {
+        public abstract void Map(EntityTypeBuilder<TEntity> builder);
+    }
+}

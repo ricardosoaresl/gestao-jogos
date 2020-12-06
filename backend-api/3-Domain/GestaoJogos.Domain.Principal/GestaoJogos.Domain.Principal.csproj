@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Enum\" />
+    <Folder Include="Helpers\Contracts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\6-SharedKernel\GestaoJogos.SharedKernel.Application\GestaoJogos.SharedKernel.Application.csproj" />
+    <ProjectReference Include="..\..\6-SharedKernel\GestaoJogos.SharedKernel.Infrastructure\GestaoJogos.SharedKernel.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

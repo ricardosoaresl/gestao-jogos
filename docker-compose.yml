@@ -1,0 +1,35 @@
+version: '3.7'
+
+services:  
+ db:
+  image: microsoft/mssql-server-linux:2017-latest
+  container_name: db
+  environment:
+   SA_PASSWORD: "#!Gestao@Jogos!#"
+   ACCEPT_EULA: "Y"
+   MSSQL_PID: "Enterprise"
+  ports:
+   - "1433:1433" 
+
+ rabbitmq:
+    image: 'docker.io/bitnami/rabbitmq:3.8-debian-10'
+    ports:
+      - '4369:4369'
+      - '5672:5672'
+      - '25672:25672'
+      - '15672:15672'
+    volumes:
+      - 'rabbitmq_data:/bitnami'
+
+ gestaojogos.backend:
+    image: gestao-jogos-backend
+    container_name: gestao-jogos-backend
+    ports:
+      - "44364:80"
+    depends_on:
+      - db
+      - rabbitmq
+
+volumes:
+  rabbitmq_data:
+    driver: local

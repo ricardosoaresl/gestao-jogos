@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GestaoJogos.Infrastructure.EntityFramework": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
