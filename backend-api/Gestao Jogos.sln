@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoJogos.SharedKernel.Ap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoJogos.SharedKernel.Infrastructure", "6-SharedKernel\GestaoJogos.SharedKernel.Infrastructure\GestaoJogos.SharedKernel.Infrastructure.csproj", "{9B881EB1-7512-4D19-82D5-2FCD70E9B4C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoJogos.Domain.Tests", "3-Domain\GestaoJogos.Domain.Tests\Tests\GestaoJogos.Domain.Tests.csproj", "{6A817FDE-9C3A-4586-90C2-F549D5070CF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{9B881EB1-7512-4D19-82D5-2FCD70E9B4C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B881EB1-7512-4D19-82D5-2FCD70E9B4C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B881EB1-7512-4D19-82D5-2FCD70E9B4C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A817FDE-9C3A-4586-90C2-F549D5070CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A817FDE-9C3A-4586-90C2-F549D5070CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A817FDE-9C3A-4586-90C2-F549D5070CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A817FDE-9C3A-4586-90C2-F549D5070CF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -124,6 +130,7 @@ Global
 		{70F1D01D-89D4-4E2D-BB04-86B52CBB0B18} = {37A6BAB1-6C3C-4A23-899F-80D62F439501}
 		{58EAE910-4B5B-465E-AA03-6163593E06AA} = {53A58D2A-904A-45BC-90D2-70BD3A73D413}
 		{9B881EB1-7512-4D19-82D5-2FCD70E9B4C8} = {DFBEC2FF-2876-4661-A511-59DDB105F2AC}
+		{6A817FDE-9C3A-4586-90C2-F549D5070CF7} = {C2815F83-ACBB-4B46-9B43-444FE413287D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7EAFB834-D825-4BFA-BCE4-AC6021AD53D7}
