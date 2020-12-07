@@ -30,5 +30,26 @@ namespace Tests
 
             new Jogo(jogoDto);
         }
+        [TestMethod]
+        public void AmigoComNome()
+        {
+            var amigoDto = new AmigoDto
+            {
+                Nome = "Ricardo Soares"
+            };
+
+            new Amigo(amigoDto);
+        }
+
+        [TestMethod]
+        public void JogoComNome()
+        {
+            var jogoDto = new JogoDto
+            {
+                Nome = "The Last of Us II"
+            };
+
+            new Jogo(jogoDto);
+        }
     }
 }
